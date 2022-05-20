@@ -7,9 +7,7 @@ import (
 
 // NewRouter -.
 func NewRouter(t usecase.Translation) map[string]server.CallHandler {
-	routes := make(map[string]server.CallHandler)
-	{
-		newTranslationRoutes(routes, t)
+	routes := make(map[string]server.CallHandler
 	}
 
 	return routes
